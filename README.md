@@ -1,14 +1,25 @@
 # WienTrainingWeek
 
-1) Download Anaconda
+1) Download Anaconda (https://www.anaconda.com/download/)
+
 2) Install it
-3) Create an environment:    conda create -n myEnv python=3
+
+3) Create an environment:    
+
+conda create -n myEnv python=3
+
 4) activate the environment :
-   for windows: activate myEnv
-   for linux/mac:   source activate myEnv
-   
+
+for windows: activate myEnv
+
+for linux/mac:   source activate myEnv
+
+
 5) Install packages:
-       conda install tensorflow
-       conda install keras
-       conda install pillow       
+
+conda install tensorflow
+
+conda install keras
+
+conda install pillow       
        
