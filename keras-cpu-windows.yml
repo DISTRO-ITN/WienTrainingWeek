@@ -1,4 +1,4 @@
-name: keras-cpu
+name: keras-cpu-windows
 channels:
 - conda-forge
 - defaults
