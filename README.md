@@ -45,6 +45,8 @@ conda install tensorflow
 
 conda install keras
 
+conda install jupyter
+
 conda install pillow
 
 conda install h5py    
