@@ -6,13 +6,13 @@
 
 
 
-####### From yml file
+####### From yml file (choose yml for your system and rename it without _yoursystem)
 
 3) conda env create -f keras-cpu.yml
 
 
 
-####### From requirement.txt file
+####### From requirement.txt file (choose txt for your system and rename it without _yoursystem)
 
 3) conda create -n myEnv python=3
 
