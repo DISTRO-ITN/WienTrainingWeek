@@ -5,50 +5,51 @@
 2) Install it , then use only one of this three methods.
 
 
+Window Section
 
-####### From yml file (choose yml for your system and rename it without _yoursystem)
+       ####### From yml file (choose yml for your system and rename it without _yoursystem)
 
-3) conda env create -f keras-cpu.yml
-
-
-
-####### From requirement.txt file (choose txt for your system and rename it without _yoursystem)
-
-3) conda create -n myEnv python=3
-
-4) activate the environment :
-
-for windows: activate myEnv
-
-for linux/mac:   source activate myEnv
-
-5) pip install -r requirements.txt
+       3) conda env create -f keras-cpu.yml
 
 
 
-####### Manual 
+       ####### From requirement.txt file (choose txt for your system and rename it without _yoursystem)
 
-3) Create an environment:    
+       3) conda create -n myEnv python=3
 
-conda create -n myEnv python=3
+       4) activate the environment :
 
-4) activate the environment :
+       for windows: activate myEnv
 
-for windows: activate myEnv
+       for linux/mac:   source activate myEnv
 
-for linux/mac:   source activate myEnv
+       5) pip install -r requirements.txt
 
 
-5) Install packages:
 
-conda install tensorflow
+       ####### Manual 
 
-conda install keras
+       3) Create an environment:    
 
-conda install jupyter
+       conda create -n myEnv python=3
 
-conda install pillow
+       4) activate the environment :
 
-conda install h5py    
-       
-conda install -other packages-
+       for windows: activate myEnv
+
+       for linux/mac:   source activate myEnv
+
+
+       5) Install packages:
+
+       conda install tensorflow
+
+       conda install keras
+
+       conda install jupyter
+
+       conda install pillow
+
+       conda install h5py    
+
+       conda install -other packages-
