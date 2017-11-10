@@ -11,6 +11,7 @@ Window Section
 
        3) conda env create -f keras-cpu-windows.yml
        
+       
        4) activate environment: activate keras-cpu-windows
 
 
@@ -40,3 +41,7 @@ Window Section
        conda install -other packages-
 
        pip install - other packages-
+       
+       ############### Troubleshoot
+       - if pandas give problems with pytz -> pip install pytz 
+       

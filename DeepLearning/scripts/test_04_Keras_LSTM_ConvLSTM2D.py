@@ -149,7 +149,7 @@ for i in range(15):
     plt.imshow(toplot)
     plt.savefig('%i_animate.png' % (i + 1))
 
-## Custom loss function integration in KERAS .... Method 1
+"""## Custom loss function integration in KERAS .... Method 1
 # def customized_loss(args):
     #A is from the training data
     #S is the internal state
@@ -215,3 +215,4 @@ class MyLayer(Layer):
 
     def compute_output_shape(self, input_shape):
         return (input_shape[0], self.output_dim)
+"""
