@@ -7,7 +7,7 @@
 
 Window Section
 
-       ####### From yml file (choose yml and rename it without _yoursystem)
+       ####### From yml file (choose yml and rename it without _windows)
 
        3) conda env create -f keras-cpu.yml
        
@@ -15,7 +15,7 @@ Window Section
 
 
 
-       ####### From requirement.txt file (choose txt and rename it without _yoursystem)
+       ####### From requirement.txt file (choose txt and rename it without _windows)
 
        3) conda create -n myEnv python=3
 
