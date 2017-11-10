@@ -7,21 +7,21 @@
 
 Window Section
 
-       ####### From yml file (choose yml for your system and rename it without _yoursystem)
+       ####### From yml file (choose yml and rename it without _yoursystem)
 
        3) conda env create -f keras-cpu.yml
+       
+       4) activate environment: activate keras-cpu
 
 
 
-       ####### From requirement.txt file (choose txt for your system and rename it without _yoursystem)
+       ####### From requirement.txt file (choose txt and rename it without _yoursystem)
 
        3) conda create -n myEnv python=3
 
        4) activate the environment :
 
-       for windows: activate myEnv
-
-       for linux/mac:   source activate myEnv
+          activate myEnv
 
        5) pip install -r requirements.txt
 
@@ -35,11 +35,9 @@ Window Section
 
        4) activate the environment :
 
-       for windows: activate myEnv
+          activate myEnv
 
-       for linux/mac:   source activate myEnv
-
-
+      
        5) Install packages:
 
        conda install tensorflow
