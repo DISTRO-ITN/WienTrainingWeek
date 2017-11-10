@@ -49,4 +49,4 @@ conda install pillow
 
 conda install h5py    
        
-conda install <other packages>
+conda install -other packages-
