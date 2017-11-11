@@ -2,7 +2,7 @@
 
 1) Download Anaconda (https://www.anaconda.com/download/)
 
-2) Install it 
+2) Install it !
 
 3) open a terminal as administrator or use sudo
  
