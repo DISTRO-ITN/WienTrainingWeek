@@ -12,7 +12,7 @@
 
    Linux/Mac:  source activate keras-env
 
-6) pip install tensorflow keras pillow pandas matplotlib jupyter
+6) pip install tensorflow keras pillow pandas matplotlib jupyter h5py
           
 7) work on a normal console launching scripts (no administrator grants are requested) after activating environment
 
