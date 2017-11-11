@@ -16,5 +16,5 @@
           
 7) work on a normal console launching scripts (no administrator grants are requested) after activating environment
 
-8) for notebooks, launch "jupyter notebook" and navigate to the diretory notebooks.
+8) for notebooks, launch "jupyter notebook" and navigate in the diretory notebooks.
     
