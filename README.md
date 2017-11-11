@@ -7,41 +7,9 @@
 
 Window Section
 
-       ####### From yml file
-
-       3) conda env create -f keras-cpu-windows.yml
-       
-       
-       4) activate environment: activate keras-cpu-windows
-
-
-       ####### Manual 
-
-       3) Create an environment:    
-
-       conda create -n keras-cpu-windows python=3
-
-       4) activate the environment :
-
-          activate keras-cpu-windows
-
-      
-       5) Install packages:
-
-       conda install tensorflow
-
-       conda install keras
-
-       conda install jupyter
-
-       conda install pillow
-
-       conda install h5py    
-
-       conda install -other packages-
-
-       pip install - other packages-
-       
-       ############### Troubleshoot
-       - if pandas give problems with pytz -> pip install pytz 
-       
+    0) open a cmd console as administrator
+    1) conda create -n keras-env
+    2) activate keras-env
+    3) pip install tensorflow keras pillow pandas matplotlib jupyter
+          
+    4) work on a normal console launching scripts (no administrator grant are requested) after activating environment
