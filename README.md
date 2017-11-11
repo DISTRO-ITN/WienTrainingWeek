@@ -2,52 +2,19 @@
 
 1) Download Anaconda (https://www.anaconda.com/download/)
 
-2) Install it , then use only one of this three methods.
+2) Install it !
 
+3) open a terminal as administrator or use sudo
+ 
+4) conda create -n keras-env
 
-Window Section
+5) Windows: activate keras-env
 
-       ####### From yml file (choose yml and rename it without _windows)
+   Linux/Mac:  source activate keras-env
 
-       3) conda env create -f keras-cpu.yml
-       
-       4) activate environment: activate keras-cpu
+6) pip install tensorflow keras pillow pandas matplotlib jupyter h5py
+          
+7) work on a normal console launching scripts (no administrator grants are requested) after activating environment
 
-
-
-       ####### From requirement.txt file (choose txt and rename it without _windows)
-
-       3) conda create -n myEnv python=3
-
-       4) activate the environment :
-
-          activate myEnv
-
-       5) pip install -r requirements.txt
-
-
-
-       ####### Manual 
-
-       3) Create an environment:    
-
-       conda create -n myEnv python=3
-
-       4) activate the environment :
-
-          activate myEnv
-
-      
-       5) Install packages:
-
-       conda install tensorflow
-
-       conda install keras
-
-       conda install jupyter
-
-       conda install pillow
-
-       conda install h5py    
-
-       conda install -other packages-
+8) for notebooks, launch "jupyter notebook" and navigate in the diretory notebooks.
+    
