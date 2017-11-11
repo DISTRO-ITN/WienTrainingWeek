@@ -9,8 +9,7 @@
 4) conda create -n keras-env
 
 5) Windows: activate keras-env
-
-5) Linux/Mac:  source activate keras-env
+   Linux/Mac:  source activate keras-env
 
 6) pip install tensorflow keras pillow pandas matplotlib jupyter
           
