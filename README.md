@@ -18,4 +18,4 @@
 
 8) for notebooks, launch "jupyter notebook" and navigate in the diretory notebooks.
 
-#Additional info for tensorflow-gpu    
+
