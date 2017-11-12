@@ -9,7 +9,7 @@ leading_zeros = 4
 extension = '.jpg'
 dim_x = 256
 dim_y = 256
-input_frames = 3
+input_frames = 10
 output_frames = 1
 total_frames = 251
 

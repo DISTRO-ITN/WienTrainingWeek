@@ -32,7 +32,7 @@ batch_size = 4
 dim_x = 256
 dim_y = 256
 channels = 1
-input_frames = 3
+input_frames = 10
 output_frames = 1
 total_frames = 251
 training_size = 4
@@ -88,13 +88,12 @@ for i, _ in enumerate(DataGenerator().generate(data_path)):
 """
 
 inputs = Input(shape = (dim_y, dim_x, input_frames))
-x = inputs
+
 # Create a model based on the following architecture:
 # Convolution: stride=1, output_depth=32
 # Convolution: stride=2, output_depth=[32, 32, 32, 64, 64, 64, 128]
 # Convolution: stride=1, output_depth=[256, 256]
 # Resize-convolution + concatenate-convolution: [64, 64, 64, 32, 32, 32, 32] + [64, 64, 64, 32, 32, 32, 1]
-# Notes: use a kernel of size (3, 3) for all convolutions; use padding='same'; use activation='sigmoid' for the last layer.
 
 model = Model(inputs=inputs, outputs=x)
 model.compile(loss=keras.losses.mean_squared_error, optimizer=keras.optimizers.Adadelta())
