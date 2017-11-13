@@ -6,7 +6,7 @@
 
 3) open a terminal as administrator or use sudo
  
-4) conda create -n keras-env
+4) conda create -n keras-env python=3
 
 5) Windows: activate keras-env
 
