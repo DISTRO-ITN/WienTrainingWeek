@@ -13,9 +13,11 @@
    Linux/Mac:  source activate keras-env
 
 6) pip install tensorflow keras pillow pandas matplotlib jupyter h5py
-          
-7) work on a normal console launching scripts (no administrator grants are requested) after activating environment
 
-8) for notebooks, launch "jupyter notebook" and navigate in the diretory notebooks.
+7) git clone https://github.com/DISTRO-ITN/WienTrainingWeek.git
+          
+8) work on a normal console launching scripts (no administrator grants are requested) after activating environment
+
+9) for notebooks, launch "jupyter notebook" and navigate in the diretory notebooks.
 
 
