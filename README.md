@@ -38,4 +38,7 @@
 
 9) for notebooks, launch "jupyter notebook" and navigate in the diretory notebooks.
 
+!!!!!!!
+If you have problems install locally...follow the scripts online here https://notebooks.azure.com/anon-a134wg/libraries/ESR4
+
 
