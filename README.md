@@ -12,14 +12,22 @@
 
    Linux/Mac:  source activate keras-env
 
-6) pip install tensorflow 
+6) pip install tensorflow
+
    pip install keras 
+   
    pip install pillow
+   
    pip install pandas
+   
    pip install matplotlib 
+   
    pip install jupyter 
+   
    pip install h5py 
+   
    pip install sklearn
+   
    
    (if you experience some issue on libraries on Windows, go here: https://www.lfd.uci.edu/~gohlke/pythonlibs/,
     download your version and then do "pip install yuorLibrary.whl)
