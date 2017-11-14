@@ -30,7 +30,7 @@
    
    
    (if you experience some issue on libraries on Windows, go here: https://www.lfd.uci.edu/~gohlke/pythonlibs/,
-    download your version and then do "pip install yuorLibrary.whl)
+    download your version and then do "pip install yuorLibrary.whl")
 
 7) git clone https://github.com/DISTRO-ITN/WienTrainingWeek.git
           
