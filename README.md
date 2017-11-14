@@ -7,6 +7,9 @@
 3) open a terminal as administrator or use sudo
  
 4) conda create -n keras-env python=3
+   
+   ( if you experience "conda not found" in Windows... put in PATH environment variable Scripts folder in Anaconda, like c:\Program Files\Anaconda3\Scripts)
+   
 
 5) Windows: activate keras-env
 
